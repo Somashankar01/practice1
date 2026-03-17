@@ -1,1 +1,90 @@
 hello
+
+1. program1
+
+-> in Repo - file do1
+
+1) cd path  
+2) git clone URL
+3) cd do1
+4) git init  
+  
+5) git config --global user.email  
+6) git config --global user.name  
+7) nano first.txt
+8) git add first.txt  
+9) git commit -m "first file"  
+10) git status  
+11) git push  
+12) git pull  
+13) nano first.txt  
+14) git reset --hard  
+15) nano first.txt  
+16) git log
+
+___________________________
+
+2. Program 02
+
+Repo-add_two_numbers
+   cd path
+   git clone url
+   cd add_two_numbers
+   git init
+
+-> git branch f1
+-> git checkout f1
+
+-> nano file1.txt
+-> git add file1.txt
+-> git commit -m "file1"
+
+-> nano file2.txt
+-> git add file2.txt
+-> git commit -m "file2"
+
+-> git checkout main
+-> git merge f1
+
+-> nano file3.txt
+-> git add file3.txt
+-> git commit -m "file3"
+
+-> git checkout f1
+
+-> nano file3.txt
+-> git add file3.txt
+-> git commit -m "file3"
+
+-> git checkout main
+-> git merge f1
+-> git diff f1
+____________________________
+
+3. Program 03
+
+1) cd path
+
+2) git clone URL (name -> j3)
+
+3) cd j3
+
+4) git init
+
+5) git config --global user.email (email)
+
+6) git config --global user.name (name)
+
+in cmd
+-> net stop jenkins
+-> net start jenkins
+
+7) git add myfile3.java
+
+8) git commit -m "dhfjf java"
+
+9) git push
+
+-> copy myfile3.java http URL in github & paste in jenkins
+
+-> Build steps -> javac myfile3.java
